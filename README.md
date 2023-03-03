@@ -1,7 +1,7 @@
 # LuhnAlgorithm
-Simple Luhn Algorithm library
+## Simple Luhn Algorithm library
 
-Supports the following functions:
+Project supports the following functions:
 - Check Swedish "Personnummer" if it´s valid.
 - Check Swedish OCR number if it´s correct.
 - Mobile ICC number check.
