@@ -50,9 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LuhnAlgorythm\LuhnAlgorythm.csproj">
+    <ProjectReference Include="..\LuhnAlgorythm\LuhnAlgorithm.csproj">
       <Project>{C6572DE8-8395-4665-8A78-F3723A43DB3B}</Project>
-      <Name>LuhnAlgorythm</Name>
+      <Name>LuhnAlgorithm</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

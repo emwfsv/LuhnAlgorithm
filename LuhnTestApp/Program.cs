@@ -13,7 +13,7 @@ namespace LuhnTestApp
             while (true)
             {
                 //Constructors;
-                var _pn = new LuhnAlgorythm();
+                var _pn = new LuhnAlgorithm();
                 string _svar = "Angivet personnummer är ";
 
                 //Fråga till användare
