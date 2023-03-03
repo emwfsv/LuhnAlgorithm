@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using LuhnAlgorythms;
 
 namespace LuhnTestApp
 {
+    /// <summary>
+    /// Liten applikation för att enkelt testa svenska personnummer.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -13,19 +13,16 @@ namespace LuhnTestApp
             while (true)
             {
                 //Constructors;
-                bool _pnCheck;
-                LuhnAlgorythm _pn = new LuhnAlgorythm();
+                var _pn = new LuhnAlgorythm();
                 string _svar = "Angivet personnummer är ";
 
                 //Fråga till användare
                 Console.WriteLine("Test av utläsning av 'bool' från personnummercheck. Ange ett personnummer: '");
-                string personNummer = Console.ReadLine();
 
                 //Utvärdering av svaret från personnummerkontrollen.
                 try
                 {
-                    _pnCheck = _pn.CheckIfPersonalIdIsCorrect(personNummer);
-                    if (_pnCheck == true)
+                    if (_pn.CheckIfPersonalIdIsCorrect(Console.ReadLine()) == true)
                     {
                         _svar = _svar + "givetvis korrekt.";
 
@@ -45,11 +42,7 @@ namespace LuhnTestApp
                     //Catchkod för att ta hand om FormatException behöver göras här...
                     Console.WriteLine("'" + _svar + "' är ett felaktigt personnummer. Nummret måste innehålla 10 siffror!!!");
                 }
-
-
             }
-
         }
-
     }
 }
