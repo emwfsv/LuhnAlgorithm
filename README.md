@@ -1,5 +1,5 @@
 # LuhnAlgorithm
-## Simple Luhn Algorithm library together with Console App & Unit tests
+This repo contains of a simple Luhn Algorithm library together with Console App & Unit tests
 
 ## LuhnAlgorithm
 The project contains of a library file with simple functions to do calculations according to Luhn Algorithm.
